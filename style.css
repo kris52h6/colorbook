@@ -1,0 +1,75 @@
+#svg {
+  width: 400px;
+  height: 400px;
+}
+
+#Layer_2 path {
+  cursor: pointer;
+}
+
+#box {
+  display: flex;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.selectedcolor {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.box1 {
+  background-color: #f24141;
+}
+
+.box2 {
+  background-color: #c341f2;
+}
+
+.box3 {
+  background-color: #7541f2;
+}
+
+.box4 {
+  background-color: #2a3a68;
+}
+
+.box5 {
+  background-color: #ccf241;
+}
+
+.box6 {
+  background-color: #2a6668;
+}
+
+.box7 {
+  background-color: #f241a8;
+}
+
+.box8 {
+  background-color: #41f24a;
+}
+
+.kanye {
+  animation-name: kanye_kf;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes kanye_kf {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
